@@ -1,0 +1,16 @@
+﻿<?xml version="2.0" encoding="utf-8"?>
+<addon id="plugin.video.jimmerz-tv" name="[COLOR ghostwhite]Jimmerz-TV[/COLOR]" version="2.0" provider-name="Jimmerz Electonics">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Jimmerz Electonics</summary>
+    <language>en</language>
+    <description lang="en">Jimmerz Electonics- Providing you and alternate way to cut that cord, with the all new J-TV. Please be sure to like, review, and share our page on facebook @ https://www.facebook.com/JimmerzElectronics. We do not own any content you are about to stream!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
